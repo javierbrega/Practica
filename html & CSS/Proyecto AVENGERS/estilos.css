@@ -3,7 +3,7 @@ body {
     background-image: linear-gradient(gray,blue);
   }
 
-  
+
 /*Estilos Generales*/
 /*aqui solo quitamos las viñetas al menu que esta en el nav*/
 nav ul {
@@ -31,7 +31,7 @@ nav ul ul {
 }
 /*primer nivel*/
 nav > ul {
-    background: rgb(181, 117, 117);
+    background: rgb(76, 117, 198);
     display: table;
     width: 100%;
     
@@ -39,19 +39,10 @@ nav > ul {
 nav > ul >li {
     float: left;
 }
-
-
-
-
-h2{
-    font-size: 36px;
-    color: black;
-    text-align: center;
-  }
 section{
     display: flex;
     width: 1328px;
-    height: 400px;
+    height: 500px;
 }
 section img {
     width: 0px;
@@ -65,4 +56,8 @@ section img:hover{
     width: 300px;
     opacity: 1;
     filter: contrast(120%);
+}
+p{
+    color: #ddd;
+    
 }
