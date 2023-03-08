@@ -21,7 +21,10 @@ ol {
     overflow: hidden;
     
 }
-
+.imagen-centrada{
+  display: block;
+  margin: 0 auto;
+}
 nav ul {
     list-style: none;
     padding: 0;
